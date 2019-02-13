@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Eisenstein Series - Ben&#39;s math notes</title>
+  <title>Eisenstein Like Series - Ben&#39;s math notes</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,11 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Ben" /><meta name="description" content="When $a \ne 0$, there are two solutions to \(ax^2 &#43; bx &#43; c = 0\) and they are: $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ 这里是文章内容" /><meta name="keywords" content="ben, math" />
+<meta name="author" content="Ben" /><meta name="description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
+Th 1: $r_8(n) = 16\sigma_3^*(n)$
+where
+$r_8(n) = \#\left\{(x1, x2, &amp;hellip;, x8)\in|\sum x_i^2=n\right\}$
+$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp;amp; \text{n is odd}\newline \sum_d|n&amp;amp; \text{n is even} \end{cases}$" /><meta name="keywords" content="ben, math" />
 
 
 
@@ -38,27 +42,39 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Eisenstein Series" />
-<meta property="og:description" content="When $a \ne 0$, there are two solutions to \(ax^2 &#43; bx &#43; c = 0\) and they are: $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ 这里是文章内容" />
+<meta property="og:title" content="Eisenstein Like Series" />
+<meta property="og:description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
+Th 1: $r_8(n) = 16\sigma_3^*(n)$
+where
+$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$
+$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d|n&amp; \text{n is even} \end{cases}$" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://libz2003.github.io/post/eisenstein-series/" />
 <meta property="article:published_time" content="2019-02-13T16:02:15&#43;08:00"/>
 <meta property="article:modified_time" content="2019-02-13T16:02:15&#43;08:00"/>
 
-<meta itemprop="name" content="Eisenstein Series">
-<meta itemprop="description" content="When $a \ne 0$, there are two solutions to \(ax^2 &#43; bx &#43; c = 0\) and they are: $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ 这里是文章内容">
+<meta itemprop="name" content="Eisenstein Like Series">
+<meta itemprop="description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
+Th 1: $r_8(n) = 16\sigma_3^*(n)$
+where
+$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$
+$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d|n&amp; \text{n is even} \end{cases}$">
 
 
 <meta itemprop="datePublished" content="2019-02-13T16:02:15&#43;08:00" />
 <meta itemprop="dateModified" content="2019-02-13T16:02:15&#43;08:00" />
-<meta itemprop="wordCount" content="33">
+<meta itemprop="wordCount" content="63">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Eisenstein Series"/>
-<meta name="twitter:description" content="When $a \ne 0$, there are two solutions to \(ax^2 &#43; bx &#43; c = 0\) and they are: $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ 这里是文章内容"/>
+<meta name="twitter:title" content="Eisenstein Like Series"/>
+<meta name="twitter:description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
+Th 1: $r_8(n) = 16\sigma_3^*(n)$
+where
+$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$
+$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d|n&amp; \text{n is even} \end{cases}$"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -117,7 +133,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Eisenstein Series</h1>
+      <h1 class="post-title">Eisenstein Like Series</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2019-02-13 </span>
@@ -129,15 +145,30 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#remark">Remark</a></li>
+</ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
-      <p>When $a \ne 0$, there are two solutions to <code>\(ax^2 + bx + c = 0\)</code> and they are:</p>
+      
 
-<p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p>
+<h1 id="remark">Remark</h1>
 
-<p>这里是文章内容</p>
+<p>Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.</p>
+
+<p>Th 1:  $r_8(n) = 16\sigma_3^*(n)$<br />
+where</p>
+
+<p>$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$</p>
+
+<p>$16\sigma_3^*(n) =
+\begin{cases}
+\sigma_3(n)&amp; \text{n is odd}\newline
+\sum_d|n&amp; \text{n is even}
+\end{cases}$</p>
 
     </div>
 
@@ -155,7 +186,11 @@
 </div><footer class="post-footer">
       
       <nav class="post-nav">
-        
+        <a class="prev" href="/post/even-preview/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Theme preview</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
         
       </nav>
     </footer>
@@ -200,6 +235,15 @@
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 
