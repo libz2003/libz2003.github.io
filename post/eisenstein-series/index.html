@@ -17,10 +17,10 @@
 
 
 <meta name="author" content="Ben" /><meta name="description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
-Th 1: $r_8(n) = 16\sigma_3^*(n)$
-where
-$r_8(n) = \#\left\{(x1, x2, &amp;hellip;, x8)\in|\sum x_i^2=n\right\}$
-$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp;amp; \text{n is odd}\newline \sum_d|n&amp;amp; \text{n is even} \end{cases}$" /><meta name="keywords" content="ben, math" />
+Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$ where
+$\gamma_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
+${\sigma_3}^*(n) = \begin{cases} \sigma_3(n) &amp;amp; \text{n is odd}\newline \sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp;amp; \text{n is even} \end{cases}$
+where ${\sigma_3}^e(n)=\displaystyle\sum_{\substack{d|n\newline d\ even}}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{{\substack{d|n\newline d\ odd}}}d^3$" /><meta name="keywords" content="ben, math" />
 
 
 
@@ -44,10 +44,10 @@ $16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp;amp; \text{n is odd}\newline \s
 
 <meta property="og:title" content="Eisenstein Like Series" />
 <meta property="og:description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
-Th 1: $r_8(n) = 16\sigma_3^*(n)$
-where
-$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$
-$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d|n&amp; \text{n is even} \end{cases}$" />
+Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$ where
+$\gamma_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
+${\sigma_3}^*(n) = \begin{cases} \sigma_3(n) &amp; \text{n is odd}\newline \sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp; \text{n is even} \end{cases}$
+where ${\sigma_3}^e(n)=\displaystyle\sum_{\substack{d|n\newline d\ even}}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{{\substack{d|n\newline d\ odd}}}d^3$" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://libz2003.github.io/post/eisenstein-series/" />
 <meta property="article:published_time" content="2019-02-13T16:02:15&#43;08:00"/>
@@ -55,15 +55,15 @@ $16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d
 
 <meta itemprop="name" content="Eisenstein Like Series">
 <meta itemprop="description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
-Th 1: $r_8(n) = 16\sigma_3^*(n)$
-where
-$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$
-$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d|n&amp; \text{n is even} \end{cases}$">
+Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$ where
+$\gamma_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
+${\sigma_3}^*(n) = \begin{cases} \sigma_3(n) &amp; \text{n is odd}\newline \sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp; \text{n is even} \end{cases}$
+where ${\sigma_3}^e(n)=\displaystyle\sum_{\substack{d|n\newline d\ even}}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{{\substack{d|n\newline d\ odd}}}d^3$">
 
 
 <meta itemprop="datePublished" content="2019-02-13T16:02:15&#43;08:00" />
 <meta itemprop="dateModified" content="2019-02-13T16:02:15&#43;08:00" />
-<meta itemprop="wordCount" content="63">
+<meta itemprop="wordCount" content="89">
 
 
 
@@ -71,10 +71,10 @@ $16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Eisenstein Like Series"/>
 <meta name="twitter:description" content="Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
-Th 1: $r_8(n) = 16\sigma_3^*(n)$
-where
-$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$
-$16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d|n&amp; \text{n is even} \end{cases}$"/>
+Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$ where
+$\gamma_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
+${\sigma_3}^*(n) = \begin{cases} \sigma_3(n) &amp; \text{n is odd}\newline \sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp; \text{n is even} \end{cases}$
+where ${\sigma_3}^e(n)=\displaystyle\sum_{\substack{d|n\newline d\ even}}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{{\substack{d|n\newline d\ odd}}}d^3$"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -148,6 +148,8 @@ $16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d
     <nav id="TableOfContents">
 <ul>
 <li><a href="#remark">Remark</a></li>
+<li><a href="#th-1-gamma-8-n-16-sigma-3-n">Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$</a></li>
+<li><a href="#prove">Prove:</a></li>
 </ul>
 </nav>
   </div>
@@ -159,16 +161,31 @@ $16\sigma_3^*(n) = \begin{cases} \sigma_3(n)&amp; \text{n is odd}\newline \sum_d
 
 <p>Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.</p>
 
-<p>Th 1:  $r_8(n) = 16\sigma_3^*(n)$<br />
-where</p>
+<h1 id="th-1-gamma-8-n-16-sigma-3-n">Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$</h1>
 
-<p>$r_8(n) = \#\left\{(x1, x2, &hellip;, x8)\in|\sum x_i^2=n\right\}$</p>
+<p>where</p>
 
-<p>$16\sigma_3^*(n) =
+<p>$\gamma_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$</p>
+
+<p>${\sigma_3}^*(n) =
 \begin{cases}
-\sigma_3(n)&amp; \text{n is odd}\newline
-\sum_d|n&amp; \text{n is even}
+\sigma_3(n) &amp; \text{n is odd}\newline
+\sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp; \text{n is even}
 \end{cases}$</p>
+
+<p>where ${\sigma_3}^e(n)=\displaystyle\sum_{\substack{d|n\newline d\ even}}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{{\substack{d|n\newline d\ odd}}}d^3$</p>
+
+<h1 id="prove">Prove:</h1>
+
+<p>put $q=e^{i\pi\tau}$</p>
+
+<p>define ${E_4}^*(\tau)=\displaystyle\sum_{n+m\ odd}(n+m\tau)^{-4},\ \tau\in\mathbb{H}$</p>
+
+<p>notice that ${E_4}^*(\tau)=$</p>
+
+<p>$E_4(\tau)-2^{-4}\displaystyle\sum_{\substack{n+m\ even\newline (n,m)\ne(0,0)}}\left(\frac{n}{2}+\frac{m}{2}\tau\right)^{-4}=E_4(\tau)-2^{-4}E_4\left(\frac{\tau-1}{2}\right)$</p>
+
+<p>#Claim 1: $\gamma_8 = 16{\sigma_3}^*\Leftrightarrow \theta^8=48\pi^{-4}{E_4}^*$</p>
 
     </div>
 
@@ -186,11 +203,7 @@ where</p>
 </div><footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/even-preview/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Theme preview</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
+        
         
       </nav>
     </footer>
