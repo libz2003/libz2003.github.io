@@ -18,10 +18,10 @@
       
       <guid>http://libz2003.github.io/post/eisenstein-series/</guid>
       <description>Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
-Th 1: $\gamma_8(n) = 16{\sigma_3}^*(n)$ where
-$\gamma_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
+Th 1: $r_8(n) = 16{\sigma_3}^*(n)$ where
+$r_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
 ${\sigma_3}^*(n) = \begin{cases} \sigma_3(n) &amp;amp; \text{n is odd}\newline \sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp;amp; \text{n is even} \end{cases}$
-where ${\sigma_3}^e(n)=\displaystyle\sum_{\substack{d|n\newline d\ even}}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{{\substack{d|n\newline d\ odd}}}d^3$</description>
+where ${\sigma_3}^e(n)=\displaystyle\sum_{d|n\atop d\ even}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{d|n\atop d\ odd}d^3$</description>
     </item>
     
   </channel>
