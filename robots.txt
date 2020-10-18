@@ -1,2 +1,3 @@
 User-agent: *
-Sitemap: https://libz2003.github.io/sitemap.xml
+Disallow: 
+Sitemap: /sitemap.xml

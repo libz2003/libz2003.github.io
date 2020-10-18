@@ -1,44 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ben&#39;s math notes</title>
-    <link>https://libz2003.github.io/</link>
-    <description>Recent content on Ben&#39;s math notes</description>
+    <title>Ben&#39;s notes</title>
+    <link>/</link>
+    <description>Recent content on Ben&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2019 00:27:48 +0800</lastBuildDate><atom:link href="https://libz2003.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©2020 Ben.</copyright>
+    <lastBuildDate>Mon, 19 Oct 2020 00:53:24 +0800</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>/post/</link>
+      <pubDate>Mon, 19 Oct 2020 00:53:24 +0800</pubDate>
+      
+      <guid>/post/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/archives/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/archives/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>About</title>
-      <link>https://libz2003.github.io/about/</link>
-      <pubDate>Wed, 20 Feb 2019 20:35:52 +0800</pubDate>
+      <link>/about/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://libz2003.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>I am a high school student. I love mathematics very much.
 my email: libz2003 [at] outlook [dot] com</description>
-    </item>
-    
-    <item>
-      <title>Ross_4_squares</title>
-      <link>https://libz2003.github.io/post/ross_4_squares/</link>
-      <pubDate>Wed, 21 Aug 2019 00:27:48 +0800</pubDate>
       
-      <guid>https://libz2003.github.io/post/ross_4_squares/</guid>
-      <description>Clarification I really learnt a lot from Ross program, one of the most impressive things is the proof for Lagrange 4-squares theorem.
-  .pdfobject-container { height: 40rem; border: 0.1rem solid rgba(0,0,0,0.1); }   window.onload = function() { var url = &#34;\/pdf\/test.pdf&#34;; var opt = { fallbackLink: &#34;please see the pdf link
-&#34; }; PDFObject.embed(url, &#34;#embed-pdf-container&#34;, opt); }  </description>
-    </item>
-    
-    <item>
-      <title>Eisenstein Like Series</title>
-      <link>https://libz2003.github.io/post/eisenstein-series/</link>
-      <pubDate>Wed, 13 Feb 2019 16:02:15 +0800</pubDate>
-      
-      <guid>https://libz2003.github.io/post/eisenstein-series/</guid>
-      <description>Remark Th 1 is one of the exercise problems in COMPLEX ANALYSIS by E.Stein(it is the last problem before the appendix). but the book only provide sketch of the solution, so I fill in details in this note.
-Th 1: $r_8(n) = 16{\sigma_3}^*(n)$ where
-$r_8(n) = \#\left\{(x_1,x_2,\ldots,x_8)\in\mathbb{Z}^8|\sum {x_i}^2=n\right\}$
-${\sigma_3}^*(n) = \begin{cases} \sigma_3(n) &amp;amp; \text{n is odd}\newline \sum_{d|n}(-1)^dd^3={\sigma_3}^e(n)-{\sigma_3}^o(n) &amp;amp; \text{n is even} \end{cases}$
-where ${\sigma_3}^e(n)=\displaystyle\sum_{d|n\atop d\ even}d^3, \quad {\sigma_3}^o(n)=\displaystyle\sum_{d|n\atop d\ odd}d^3$</description>
     </item>
     
   </channel>
