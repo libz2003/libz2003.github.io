@@ -14,7 +14,7 @@
       
       <guid>https://libz2003.github.io/post/ross_4_squares/</guid>
       <description>Clarification I really learnt a lot from Ross program, one of the most impressive things is the proof for Lagrange 4-squares theorem.
-  .pdfobject-container { height: 40rem; border: 0.1rem solid rgba(0,0,0,0.1); }   window.onload = function() { var url = &#34;\/pdf\/test.pdf&#34;; var opt = { fallbackLink: &#34;This is a fallback link
+  .pdfobject-container { height: 40rem; border: 0.1rem solid rgba(0,0,0,0.1); }   window.onload = function() { var url = &#34;\/pdf\/test.pdf&#34;; var opt = { fallbackLink: &#34;please see the pdf link
 &#34; }; PDFObject.embed(url, &#34;#embed-pdf-container&#34;, opt); }  </description>
     </item>
     
