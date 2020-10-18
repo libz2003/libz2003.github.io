@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ben&#39;s math notes</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Posts on Ben&#39;s math notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2019 00:27:48 +0800</lastBuildDate>
-    
-	<atom:link href="https://libz2003.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 21 Aug 2019 00:27:48 +0800</lastBuildDate><atom:link href="https://libz2003.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ross_4_squares</title>
       <link>https://libz2003.github.io/post/ross_4_squares/</link>
@@ -18,7 +14,8 @@
       
       <guid>https://libz2003.github.io/post/ross_4_squares/</guid>
       <description>Clarification I really learnt a lot from Ross program, one of the most impressive things is the proof for Lagrange 4-squares theorem.
-Statement Theorem 1.1: $\forall n\in \mathbb{Z}^+,\exists a,b,c,d\in \mathbb{Z}\ s.t.$ $$n=a^2+b^2+c^2+d^2$$</description>
+  .pdfobject-container { height: 40rem; border: 0.1rem solid rgba(0,0,0,0.1); }   window.onload = function() { var url = &#34;\/pdf\/test.pdf&#34;; var opt = { fallbackLink: &#34;This is a fallback link
+&#34; }; PDFObject.embed(url, &#34;#embed-pdf-container&#34;, opt); }  </description>
     </item>
     
     <item>
