@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2020 Ben.</copyright>
-    <lastBuildDate>Mon, 19 Oct 2020 00:53:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2020 00:16:33 +0800</lastBuildDate>
     
         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Inner Product and Cauchy Schwarz</title>
+      <link>/post/inner-product-and-cauchy-schwarz/</link>
+      <pubDate>Tue, 20 Oct 2020 00:16:33 +0800</pubDate>
+      
+      <guid>/post/inner-product-and-cauchy-schwarz/</guid>
+      <description>&lt;p&gt;In this article, we define the inner product and use it to prove the Cauchy-Schwarz inequality.&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>[Ross] 4 Squares</title>
