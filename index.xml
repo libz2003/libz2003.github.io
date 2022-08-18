@@ -1,47 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ben&#39;s notes</title>
-    <link>/</link>
+    <link>https://blog.benli.xyz/</link>
     <description>Recent content on Ben&#39;s notes</description>
+    <image>
+      <url>https://blog.benli.xyz/papermod-cover.png</url>
+      <link>https://blog.benli.xyz/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>©2020 Ben.</copyright>
-    <lastBuildDate>Tue, 20 Oct 2020 00:16:33 +0800</lastBuildDate>
-    
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2020 00:16:33 +0800</lastBuildDate><atom:link href="https://blog.benli.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Posts</title>
-      <link>/post/</link>
+      <title>Inner Product and Cauchy Schwarz</title>
+      <link>https://blog.benli.xyz/posts/inner-product-and-cauchy-schwarz/</link>
       <pubDate>Tue, 20 Oct 2020 00:16:33 +0800</pubDate>
       
-      <guid>/post/</guid>
-      <description></description>
-      
+      <guid>https://blog.benli.xyz/posts/inner-product-and-cauchy-schwarz/</guid>
+      <description>&lt;p&gt;This document starts with the definition of inner product, and contains several problems, after doing them, Cauchy-Schwarz inequality is proved.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/archives/</link>
-      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      <title>[Ross] 4 Squares</title>
+      <link>https://blog.benli.xyz/posts/ross-4-squares/</link>
+      <pubDate>Mon, 19 Oct 2020 00:53:24 +0800</pubDate>
       
-      <guid>/archives/</guid>
-      <description></description>
-      
+      <guid>https://blog.benli.xyz/posts/ross-4-squares/</guid>
+      <description>&lt;p&gt;In this article, we use the Minkowski theorem to prove every positive integer can be written in the form a^2+b^2+c^2+d^2.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://blog.benli.xyz/about/</link>
+      <pubDate>Mon, 19 Oct 2020 00:53:24 +0800</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://blog.benli.xyz/about/</guid>
       <description>I am an undergraduate student. I love mathematics very much.
 my email: libz2003 [at] outlook [dot] com</description>
-      
     </item>
+    
+    
     
   </channel>
 </rss>
