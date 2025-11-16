@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Ben&#39;s notes</title>
+    <title>Posts on Bangzheng Li&#39;s Website</title>
     <link>https://blog.benli.xyz/posts/</link>
-    <description>Recent content in Posts on Ben&#39;s notes</description>
-    <image>
-      <url>https://blog.benli.xyz/papermod-cover.png</url>
-      <link>https://blog.benli.xyz/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Posts on Bangzheng Li&#39;s Website</description>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 00:16:33 +0800</lastBuildDate><atom:link href="https://blog.benli.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Inner Product and Cauchy Schwarz</title>
-      <link>https://blog.benli.xyz/posts/inner-product-and-cauchy-schwarz/</link>
-      <pubDate>Tue, 20 Oct 2020 00:16:33 +0800</pubDate>
-      
-      <guid>https://blog.benli.xyz/posts/inner-product-and-cauchy-schwarz/</guid>
-      <description>&lt;p&gt;This document starts with the definition of inner product, and contains several problems, after doing them, Cauchy-Schwarz inequality is proved.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Ross] 4 Squares</title>
-      <link>https://blog.benli.xyz/posts/ross-4-squares/</link>
-      <pubDate>Mon, 19 Oct 2020 00:53:24 +0800</pubDate>
-      
-      <guid>https://blog.benli.xyz/posts/ross-4-squares/</guid>
-      <description>&lt;p&gt;In this article, we use the Minkowski theorem to prove every positive integer can be written in the form a^2+b^2+c^2+d^2.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://blog.benli.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
