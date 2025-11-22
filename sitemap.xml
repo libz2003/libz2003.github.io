@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.benli.xyz/posts/my-cv/</loc>
+    <lastmod>2025-11-16T01:26:38-05:00</lastmod>
   </url><url>
     <loc>https://blog.benli.xyz/</loc>
+    <lastmod>2025-11-16T01:26:38-05:00</lastmod>
   </url><url>
-    <loc>https://blog.benli.xyz/categories/</loc>
+    <loc>https://blog.benli.xyz/posts/my-cv-markdown/</loc>
+    <lastmod>2025-11-16T01:26:38-05:00</lastmod>
   </url><url>
     <loc>https://blog.benli.xyz/posts/</loc>
+    <lastmod>2025-11-16T01:26:38-05:00</lastmod>
+  </url><url>
+    <loc>https://blog.benli.xyz/categories/</loc>
   </url><url>
     <loc>https://blog.benli.xyz/tags/</loc>
   </url>

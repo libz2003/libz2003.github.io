@@ -6,12 +6,20 @@
     <description>Recent content on Bangzheng Li&#39;s Website</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 16 Nov 2025 01:26:38 -0500</lastBuildDate>
     <atom:link href="https://blog.benli.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>My CV</title>
       <link>https://blog.benli.xyz/posts/my-cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 16 Nov 2025 01:26:38 -0500</pubDate>
       <guid>https://blog.benli.xyz/posts/my-cv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My CV In Markdown</title>
+      <link>https://blog.benli.xyz/posts/my-cv-markdown/</link>
+      <pubDate>Sun, 16 Nov 2025 01:26:38 -0500</pubDate>
+      <guid>https://blog.benli.xyz/posts/my-cv-markdown/</guid>
       <description>&lt;h1 id=&#34;bangzheng-benjamin-li&#34;&gt;Bangzheng (Benjamin) Li&lt;/h1&gt;
 &lt;p&gt;+1-203-601-0833 | &lt;a href=&#34;mailto:liben@mit.edu&#34;&gt;liben@mit.edu&lt;/a&gt;&lt;br&gt;
 Cambridge, Massachusetts - 02139&lt;/p&gt;
@@ -38,18 +46,11 @@ Trumbull, CT&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;award&#34;&gt;AWARD&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Hartley Rogers Jr. Prize&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;MIT&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;The best paper award in the Summer Program in Undergraduate Research (SPUR)&lt;/em&gt;&lt;br&gt;
-August 2024&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;activities&#34;&gt;ACTIVITIES&lt;/h2&gt;
-&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Undergraduate Research Opportunities Program Plus (UROP+)&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;MIT&lt;/em&gt;&lt;br&gt;
-June 2025 – August 2025&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://math.mit.edu/research/undergraduate/spur/rogers-prize.html&#34;&gt;&lt;strong&gt;Hartley Rogers Jr. Prize&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;MIT&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;The best paper award in the Summer Program in Undergraduate Research (SPUR)&lt;/em&gt;&lt;br&gt;
+August 2024&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
